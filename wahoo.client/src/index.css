@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --crayola-blue: #1E68F4;
+  --blueberry-blue: #4B86F6;
+}
+
+
+.pedro-video-content {
+  min-height: calc(100vh - (6rem + 4rem + 2.4rem));
+}
+
+.custom-btn {
+  background-color: var(--crayola-blue);
+}
+.custom-btn:hover {
+  background-color: var(--blueberry-blue);
+}
+
+.custom-outline-colour {
+  outline-color: var(--crayola-blue);
+}
+
+.custom-colour {
+  color: var(--crayola-blue);
+}
+
+.custom-colour:hover {
+  color: var(--blueberry-blue);
+}

@@ -1,0 +1,21 @@
+@wahoo.Server_HostAddress = http://localhost:5289/
+
+POST {{wahoo.Server_HostAddress}}/register/
+Accept: application/json
+
+###
+
+POST {{wahoo.Server_HostAddress}}/login/
+Accept: application/json
+
+###
+
+POST {{wahoo.Server_HostAddress}}/logout/
+Accept: application/json
+
+###
+
+GET {{wahoo.Server_HostAddress}}/currentuser/
+
+###
+GET {{wahoo.Server_HostAddress}}/pingauth/

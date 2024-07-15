@@ -1,0 +1,34 @@
+﻿#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.custom-btn {
+  background-color: var(--crayola-blue);
+}
+.custom-btn:hover {
+  background-color: var(--blueberry-blue);
+}
+
+.custom-outline-colour {
+  outline-color: var(--crayola-blue);
+}
+
+.custom-colour {
+  color: var(--crayola-blue);
+}
+
+.custom-colour:hover {
+  color: var(--blueberry-blue);
+}
+
+.custom-ring:focus {
+    color: var(--blueberry-blue);
+}
