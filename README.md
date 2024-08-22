@@ -7,7 +7,14 @@ This is a login and registration flow in React and ASP.NET Core.
 - Responsive web design
 - Notification for unsuccessful registration and login attempts, and successful registration.
 
-### *Storytime...*
+## Screenshots
+More previews can be viewed in the [screenshots directory](/screenshots/)
+### Desktop preview
+![Web Login Preview](/screenshots/2-web-login.png)
+### Mobile preview
+![Mobile Login Preview](/screenshots/2-mobile-login-error.png)
+
+## *Storytime...*
 Initially, I wanted the user to complete a login flow and find a surprise waiting them using Vanilla JS and ASP.NET Core, but, I thought that this was also a great opportunity to learn and try something new in the process. This opened the gates to ideas that inspired new ideas.
 
 It was expected that this would add extra complexity to the initial project plan, however, I sorely underestimated the challenge and was forced to question the wisdom of my whims and fancies having dealt with unprecedented bugs and magical ones that somehow disappears for good.
